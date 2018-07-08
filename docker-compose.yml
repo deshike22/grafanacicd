@@ -3,3 +3,5 @@ version: '3'
 services:
   grafana:
     image: grafana
+    ports:
+     - "3001:3000"
